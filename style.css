@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+body{
+    background-image: url('./assets/background.png');
+    height: 1000px;
+}
+.bg{
+    position: absolute;
+    display: block;
+    z-index: -2;
+    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.square{
+    background-color: aqua;
+}
+.tiktok{
+    font-family: 'Roboto';
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.discord{
+    font-family: 'Roboto';
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track{
+    color: blue;
+}
